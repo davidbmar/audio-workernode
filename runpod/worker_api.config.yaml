@@ -1,0 +1,17 @@
+worker:
+  name: "api_worker"
+
+orchestrator:
+  url: "https://your-orchestrator-url.com"
+
+storage:
+  download_folder: "./downloads"
+
+transcription:
+  api_url: "http://localhost:8000/v1/audio/transcriptions"
+
+performance:
+  poll_interval: 5
+
+secrets:
+  api_token: "YOUR_API_TOKEN_HERE"
